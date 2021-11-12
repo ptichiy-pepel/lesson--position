@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Manrope";
+    margin: 0;
+}
+
+/* Header */
+header{
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #fff;
+    padding: 22px 165px;
+    z-index: 1;
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.menu{
+    display: inline-block;
+    vertical-align: middle;
+    right: 165px;
+    position:absolute;  /*Выровнять элемент по центру*/
+    top: 50%;           /*можно с помощью этих трех свойств*/
+    margin-top: -10px;  /*margin при этом равен 1/2 от высоты элемента*/
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 32px;
+}
+
+.menu-last-element{
+    margin: 0;
+}
+
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* Header END */
+
+/* Main */
+
+main{
+    width: 1440px;
+    height: 866px;
+}
+
+.left{
+    width: 705px;
+    height: 866px;
+    background-color: #e8f0f3;
+    display: inline-block;
+    padding: 291px 0 219px 165px;
+    position: relative;
+    top: -240px;
+}
+
+.content{
+    width: 540px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+
+.icon{
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.line{
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+h5{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right{
+    width: 735px;
+    height: 866px;
+    margin-left: -4px;
+    display: inline-block;
+}
+
+.img-frame{
+    position: relative;
+    width: 735px;
+}
+
+.main-img{
+    position: absolute;
+    right: -1px;
+}
+/* Main END */
