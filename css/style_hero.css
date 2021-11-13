@@ -31,11 +31,6 @@ header{
     position:absolute;  /*Выровнять элемент по центру*/
     top: 50%;           /*можно с помощью этих трех свойств*/
     margin-top: -10px;  /*margin при этом равен 1/2 от высоты элемента*/
-    
-}
-
-ul{
-    list-style: none;
 }
 
 li{
@@ -57,14 +52,11 @@ h4{
 /* Main */
 
 main{
-    width: 1440px;
     height: 866px;
+    background-color: #e8f0f3;
 }
 
 .left{
-    width: 705px;
-    height: 866px;
-    background-color: #e8f0f3;
     display: inline-block;
     padding: 291px 0 219px 165px;
     position: relative;
@@ -118,7 +110,7 @@ h5{
 }
 
 .img-frame{
-    position: relative;
+    /* position: relative; */
     width: 735px;
 }
 
